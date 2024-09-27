@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+    margin: 5px;
+    color: brown;
+}
+#contenedor {
+    color: brown;
+  width: 60%;
+  margin: 5px auto;
+  border: 4px rgb(255, 251, 333) solid;
+  border-radius: 10px;
+  text-align: center;
+}
+body {
+    background-color: black; /* Color fonde de pantalla*/
+    color: brown; /* Color de letra */
+    font-family: 'Times New Roman', Times, serif; /* Estilo de la letra*/
+    font-size: 1em; /* Tamano de la Letra*/
+}
+#remitir{
+    width: 25%;
+    margin-top: 10px;
+    color: black;
+    background-color: white;
+    height: 25px;
+    margin-bottom: 10px;
+    color: brown;
+    background: inherit;
+}
+#boton{
+    text-align: center;
+}
+#direccion {
+    
+        font-size: 12px;
+        padding-left: 1em;
+        padding-right: 1em;
+        color: black;
+        height: 5em;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid #C0C8E7;
+        width: 30em;
+        color: brown;
+        background: inherit;
+}
+#name {
+    color: brown;
+    background: inherit;
+    border-radius: 5px;
+}
+#apellido{
+    border-radius: 5px;
+    color: brown;
+    background: inherit;
+}
+#municipio {
+    border-radius: 5px;
+    color: brown;
+    background: inherit;
+}
+#estado{
+    border-radius: 5px;
+    color: brown;
+    background: inherit;
+}
+#cp{
+    border-radius: 5px;
+    color: brown;
+    background: inherit;
+}
+#number {
+    border-radius: 5px;
+    color: brown;
+    background: inherit;
+}
+#time{
+    border-radius: 5px;
+    color: brown;
+    background: inherit;
+}
+#logo{
+    text-align: center;
+    margin-top: 30px;
+    color: brown;
+    background: inherit;
+}
+#logo img{
+    border-radius: 200px;
+}
+#msg{
+    color: brown;
+    background: inherit;
+}

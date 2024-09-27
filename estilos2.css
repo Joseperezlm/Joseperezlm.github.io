@@ -1,0 +1,122 @@
+/* Selector Universal */
+/* Propiedad: valor */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Selector Body */
+body {
+    background-color: rgb(6, 92, 92); /* Color fonde de pantalla*/
+    color: black; /* Color de letra */
+    font-family: 'Times New Roman', Times, serif; /* Estilo de la letra*/
+    font-size: 1em; /* Tamano de la Letra*/
+}
+#wrapper {
+    width: 90%;
+    margin: 5% auto;
+    border: 5px silver solid;
+    border-radius: 10px;
+}
+nav {
+    background-color: blueviolet;
+    text-align: center;
+    position: fixed;
+    width: 90%;
+}
+nav ul li{
+    display: inline-block;
+    padding: 1px;
+    margin: 5px;
+    margin-left: 64px;
+}
+nav ul li a {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.em;
+    text-decoration: none;
+}
+a:hover {
+    color: bisque;
+    text-decoration: underline;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+}
+header {
+    margin-top: 32px;
+    height: 200px;
+    background-image: url(../Imagenes/vet.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-size: 32px;
+    text-align: center;
+    line-height: 200px;
+}
+
+h3,h4,h5 {
+    text-align: center;
+    margin: 5px;
+    font-size: 1.5em;
+}
+h2{
+    font-size: 50px;
+    color: white;
+}
+h3{
+    color: white;
+}
+h4{ 
+    color: aqua;
+}
+p {
+    padding: 10px;
+    text-align: justify;
+    border: 2px silver solid;
+    border-radius: 10px;
+    margin: 5px;
+}
+.impar {
+    color: white;
+    border-top-right-radius: 25px;
+}
+.par{
+    color: white;
+}
+h3.calendar{
+    text-align: center;
+    padding-bottom: 15px;
+}
+hr{
+    width: 100%;
+    color: silver;
+}
+#panel {
+    width: 60%;
+    margin: 15px auto;
+    height: 220px;
+    border: 1px silver outset;
+    border-radius: 10px;
+    text-align: center;
+}
+.caja{
+    width: 50%;
+    height: 10%;
+    margin:  5px 10%;
+}
+.altura{
+    height: 100px;
+}
+.boton{
+    width: 20%;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    height: 25px;
+    margin-bottom: 10px;
+}
+#imagen{
+    text-align: center;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/clase.css">
+    <title>FomulariodeContacto</title>
+</head>
+<body>
+    <div id="contenedor">
+        
+        <form method="get">
+            
+            <aside id="logo"><img src="Imagenes/user.jpg" alt="" height="110px" width="143px"></aside>
+        <header>
+            <h1>Folumario de Contacto</h1>
+        </header>
+        <p>
+            <label for="nombre">Ingresa Nombre Completo</label> <br> <br>
+            <input type="text" name="name" id="name" required placeholder="Ingresa tu Nombre">
+            <input type="text" name="apellido" id="apellido" required  placeholder="Ingresa tu Apellido">
+        </p>
+        <br>
+        <p>
+            <label for="direccion">Direccion</label> <br> 
+            <input type="text" required name="direccion" id="direccion" size="52px"> <br><br>
+        </p>
+        <p>
+                <div id="direcciones">
+                    <select name="municipio" id="municipio" required>
+                        <option value="">Municipio</option>
+                        <option value="java">Benito Juarez</option>
+                        <option value="python">Iztacalco</option>
+                        <option value="javascript">Iztapalapa</option>
+                        <option value="c++">Chimalhuacan</option>
+                        <option value="php">Otro</option>
+                    </select>
+                
+                    <select name="estado" id="estado" required>
+                        <option value="">Estado</option>
+                        <option value="">EdoMex</option>
+                        <option value="">EdoMex</option>
+                        <option value="java">CDMX</option>
+                        <option value="python">Guerrero</option>
+                        <option value="javascript">Oaxaca</option>
+                        <option value="c++">Nuevo Leon</option>
+                        <option value="php">Otro</option>
+                    </select>
+
+                    <input type="number" required name="cp" id="cp" placeholder="C.P"> <br><br>
+                </div>
+            </p>
+        <p>
+            <input type="tel" name="number" id="number" required placeholder="Telefono">
+            <input type="date" name="time" id="time" required placeholder="Fecha Nacimiento"><br><br>
+        </p>
+        <p>
+            <input type="checkbox" name="so1" id="sol" value="Windows" required> &nbsp;&nbsp;Acepto Terminos <br><br>
+        </p>
+        <p>
+            <textarea cols="50" rows="8" placeholder="Comentarios Adicionales" id="msg" name="msg"></textarea>
+        </p>
+        <p id="boton">
+            <input type="submit" name="remitir" id="remitir" value="Remitir">
+        </p>
+    </form>
+    </div>
+</body>
+</html>

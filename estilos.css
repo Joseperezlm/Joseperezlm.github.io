@@ -1,0 +1,80 @@
+/* Selector Universal */
+/* Propiedad: valor */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Selector Body */
+body {
+    background-color: bisque; /* Color fonde de pantalla*/
+    color: black; /* Color de letra */
+    font-family: 'Times New Roman', Times, serif; /* Estilo de la letra*/
+    font-size: 1em; /* Tamano de la Letra*/
+}
+#wrapper {
+    width: 90%;
+    margin: 5% auto;
+    border: 5px silver solid;
+    border-radius: 10px;
+}
+nav {
+    background-color: grey;
+    text-align: center;
+    position: fixed;
+    width: 90%;
+}
+nav ul li{
+    display: inline-block;
+    padding: 5px;
+    margin-left: 25px;
+}
+nav ul li a {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+a:hover {
+    color: bisque;
+    text-decoration: underline;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+}
+header {
+    margin-top: 32px;
+    height: 300px;
+    background: silver url("../Imagenes/img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    line-height: 125px;
+}
+
+h3,h4,h5 {
+    text-align: center;
+    margin: 5px;
+}
+h3{
+    color: blue;
+}
+h4{ 
+    color: aqua;
+}
+p {
+    padding: 10px;
+    text-align: justify;
+    border: 2px silver solid;
+    border-radius: 10px;
+    margin: 5px;
+}
+.impar {
+    color: blue;
+    border-top-right-radius: 25px;
+}
+.par{
+    color: gray;
+    padding: 0px 50px;
+}

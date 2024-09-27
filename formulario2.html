@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+</head>
+<head>
+    <style>
+        #contenedor{
+
+        }
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <form method="get">
+            <p>
+                <label for="comentarios">Comentarios</label> <br>
+                <textarea cols="50" rows="8" required readonly id="msg" name="msg">Terminos y Condiciones</textarea>
+            </p>
+            <p>
+                <label for="lenguaje">Lenguaje(s) Favoritos</label> <br>
+                <select name="lenguaje" id="lenguaje" required multiple="true">
+                    <option value="">Seleccione</option>
+                    <option value="java">Java</option>
+                    <option value="python">Python</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="c++">C++</option>
+                    <option value="php">PHP</option>
+                </select>
+            </p>
+            <p>
+                <input type="submit" name="remitir" id="remitir" value="Remitir Información">
+            </p>
+            <p>
+                <label for="imagen">Seleccione una Imagen</label> <br> <br>
+                <input type="file" name="imagen" id="imagen" required>
+            </p>
+            <p>
+                <label for="imagen">Seleccione una Imagen</label> <br> <br>
+                <input type="file" name="imagen" id="imagen" required multiple="true">
+            </p>
+            <p>
+                <label for="so">Sistemas Operativos</label> <br> <br>
+                <input type="checkbox" name="so1" id="sol" value="Windows">Windows <br>
+                <input type="checkbox" name="so2" id="so2" value="Macos"> Macos <br>
+                <input type="checkbox" name="so3" id="so3" value="Linux"> Linux <br>
+            </p>
+            <p></p>
+                <label for="so">Sistemas Operativos</label> <br> <br>
+                <input type="radio" name="so" id="so" value="Windows">Windows <br>
+                <input type="radio" name="so" id="so" value="Macos"> Macos <br>
+                <input type="radio" name="so" id="so" value="Linux"> Linux <br>
+            </p>
+            <p>
+                <button id="listar">Listar Datos</button> &nbsp;&nbsp;
+                <button id="guardar">Guardar Dato</button> &nbsp;&nbsp;
+                <button id="eliminar">Eliminar Dato</button> &nbsp;&nbsp;
+                <button id="editor">Editar Datos</button> &nbsp;&nbsp;
+            </p>
+            <p>
+                <label for="date">Fecha</label> <br>
+                <input type="date" name="fecha" id="fecha" required>
+                <p>
+                    <p>
+                        <label for="hora">Hora de Registro</label> <br><br>
+                        <input type="time" name="hora" id="hora">
+                    </p>
+                    <p>
+                        <label for="edad">Seleccione su edad</label> <br><br>
+                        <input type="number" name="edad" id="edad" required min="0" max="100" step="5">
+                    </p>
+                    <input type="submit" name="submit" id="submit" value="Remitir Información">
+                </p>
+                <p>
+                    <label for="email">Correo Electronico</label> <br><br>
+                    <input type="email" name="email" id="email" required>
+                </p>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
